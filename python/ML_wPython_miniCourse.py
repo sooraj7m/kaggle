@@ -129,6 +129,7 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
+
 # load dataset
 url = "https://goo.gl/vhm1eU"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
@@ -144,6 +145,7 @@ models.append(('SVM', SVC()))
 models.append(('KNN', KNeighborsClassifier()))
 models.append(('CART', DecisionTreeClassifier()))
 models.append(('NB', GaussianNB()))
+
 # evaluate each model in turn
 results = []
 names = []
