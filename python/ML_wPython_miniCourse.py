@@ -2,7 +2,31 @@
 """
 Spyder Editor
 
-This is a temporary script file.
+This is a Data Science traning code using Python
+
+Overview:
+Lesson 1: Download and Install Python and SciPy Ecosystem
+Lesson 2: Get Around In Python, NumPy, Matplotlib and Pandas
+Lesson 3: Load Data From CSV
+Lesson 4: Understand Data with Descriptive Statistics
+Lesson 5: Understand Data with Visualization
+Lesson 6: Prepare For Modeling by Pre-Processing Data
+Lesson 7: Algorithm Evaluation With Resampling Methods
+Lesson 8: Algorithm Evaluation Metrics
+Lesson 9: Spot-Check Algorithms
+Lesson 10: Model Comparison and Selection
+    load dataset
+    prepare models
+    evaluate each model in turn
+Lesson 11: Improve Accuracy with Algorithm Tuning
+    Grid Search for Algorithm Tuning
+Lesson 12: Improve Accuracy with Ensemble Predictions
+    Random Forest Classification
+Lesson 13: Finalize And Save Your Model
+    Save Model Using Pickle
+    ... some time later...
+    load the model from disk
+Lesson 14: Hello World End-to-End Project (Build your own
 """
 
 # Lesson 1: Download and Install Python and SciPy Ecosystem
@@ -73,7 +97,7 @@ rescaledX = scaler.transform(X)
 numpy.set_printoptions(precision=3)
 print(rescaledX[0:5,:])
 
-#Lesson 7: Algorithm Evaluation With Resampling Methods
+# Lesson 7: Algorithm Evaluation With Resampling Methods
 # Evaluate using Cross Validation
 from pandas import read_csv
 # pip install -U numpy scipy scikit-learn #run if mising module error for mac
